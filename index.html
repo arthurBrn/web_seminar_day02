@@ -35,36 +35,37 @@
                 </p>
             </div>
             <br>
-            <form action="">
+            <form action="#">
                 <p class="article-form">article</p>
-                <label for="">Name</label>
-                <input class="input" type="text" name="name" required> <br>
-                <label for="">First name</label>
-                <input class="input" type="text" name="first_name" required> <br>
-                <label for="">Email</label>
-                <input class="input" type="text" name="email" required><br>
-                <label for="">Age</label>
-                <input class="input" type="text" name="age" min="3" max="99"><br>
-                <label for="">Phone</label>
-                <input class="input" type="text" name="phone" min="10" max="10"><br>
-                <label for="">Sex</label>
-                <select name="" id="">
-                    <option value="male" selected="selected"> Male</option>
-                    <option value="female">Female</option>
-                </select><br>
-                <label for="">Hair color</label>
-                <input class="input" type="color" id="colorHaire" name="hairColor" value="#e66465"><br>
-                <label for="">Date</label>
-                <input type="date" name="Date" value="" required><br>
-                <label for="">Technology</label>
-                <select name="" id="">
+                <label for="name">Name</label>
+                <input class="input" type="text" id="name" name="name" required> <br>
+                <label for="first_name">First name</label>
+                <input class="input" type="text" id="first_name" name="first_name" required> <br>
+                <label for="email">Email</label>
+                <input class="input" type="text" id="email" name="email" required><br>
+                <label for="age">Age</label>
+                <input class="input" type="text" id="age" name="age" min="3" max="99"><br>
+                <label for="phone">Phone</label>
+                <input class="input" type="text" id="phone" name="phone" min="10" max="10"><br>
+                <label for="sex">Sex</label>
+                <select name="sex" id="sex">
+                <option value="male" selected="selected"> Male</option>
+                <option value="female">Female</option>
+                </select>
+                <br>
+                <label for="hair_color">Hair color</label>
+                <input class="input-color" type="color" id="hair_color" name="hairColor" value="#e66465"><br>
+                <label for="date">Date</label>
+                <input type="date" name="Date" id="date" required><br>
+                <label for="technology">Technology</label>
+                <select name="technology" id="technology">
                     <option value="php">Php</option>
                     <option value="SQL">SQL</option>
                     <option value="Java">Java</option>
                     <option value="Kotlin">Kotlin</option>
                 </select><br>
-                <label for="">Question</label>
-                <input type="Textarea" name="Question"><br>
+                <label for="question">Question</label>
+                <input type="Textarea" id="question" name="question"><br>
 
                 <button type="submit">
                     Submit
